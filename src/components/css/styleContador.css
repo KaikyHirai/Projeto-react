@@ -1,0 +1,76 @@
+body {
+    font-family: cursive;
+    background-color: antiquewhite;
+}
+.container-contador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin: auto;
+    background-color: white;
+}
+
+.container-total {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+}
+
+.container-total, h1{
+    margin: 0;
+    height: 40px;
+}
+
+.caixa-total {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.container-infcontador {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+}
+
+.container-botoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 70px;
+    
+}
+.botoes-addsub{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+}
+button{    
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.exibicao-contador {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.imgreload {
+    margin-top: 5%;
+    margin-bottom: 10%;
+    width: 8%;
+    height: 8%;
+}
+

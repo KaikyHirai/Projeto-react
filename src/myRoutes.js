@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import Home from "./components/Home";
 import Atv01 from "./components/Atv01";
+import Atv02 from "./components/contador";
 /* import Atv02 from ""; */
 
 export default function MinhasRotas(){
@@ -10,6 +11,7 @@ export default function MinhasRotas(){
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/Atv01" element={<Atv01 />} />
+            <Route path="/Atv02" element={<Atv02 />} />
         </Routes>
         </BrowserRouter>
     );
