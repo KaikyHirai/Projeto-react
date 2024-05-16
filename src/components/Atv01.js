@@ -1,7 +1,6 @@
 import { DigitalClock } from "./DigitalClock";
 import EfeitoDigitar from "./Letreiro"
 import { Link } from "react-router-dom";
-
 export default function Atv01(){
     return(
         <>
@@ -10,6 +9,7 @@ export default function Atv01(){
             <EfeitoDigitar />
             <br/>
             <Link to="/">Retornar para a pagina principal</Link>
+
         </>
     );
 }
